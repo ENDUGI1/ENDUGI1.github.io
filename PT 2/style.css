@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&family=Poppins&display=swap');
+
+
+*,
+html{
+    margin: 0ch;
+    padding: 0ch;
+}
+
+
+.kotak-navbar{
+   display: flex;
+   justify-content: space-between;
+   background-color: #1f1f1e;
+   width: 100%;
+   background-size: cover;
+   align-items: center;
+   height: 15vh;
+    
+}
+.logo{
+    padding-left: 30px;
+    width: 150px;
+}
+
+.ul-navbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 550px;
+}
+
+
+
+.textKonten{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 50px;
+    background-color:#a4bbca ;
+}
+
+.textKonten h1{
+    font-family: 'montserrat';
+    color: #fefbec;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: #e87382;
+    border: 3px solid black;
+}
+
+.li-navbar{
+font-family: 'montserrat';
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: wheat;
+font-size:larger
+}
+
+.li-navbar:hover{
+    background-color: #e87382;
+    transition: .5s ease-in-out;
+    transition-delay: .025s;
+    border-radius: 10px;
+}
+
+.a-navbar{
+    color: #fefbec;
+     text-decoration: none;
+     font-weight: 800;
+}
+
+.kotak-content{
+    background-color: #a4bbca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+/* .a-content{
+    background-color: #acd1db;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    width: 490px;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: -8px 6px 7px 3px rgba(0,0,0,0.61);
+-webkit-box-shadow: -8px 6px 7px 3px rgba(0,0,0,0.61);
+-moz-box-shadow: -8px 6px 7px 3px rgba(0,0,0,0.61);
+  
+} */
+
+/* #warnaBg {
+    background-color: blue; 
+    padding: 20px; 
+} */
+
+
+/* .b-content{
+    background-color: rgb(198, 8, 62);
+    width: 100%;
+    background-size: cover;
+    height: 10vh;
+    justify-items: auto;
+} */
+
+.img-content{
+width: 450px;
+height: 450px;
+
+}
+
+.kotak-footer{
+background-color: #1f1f1e;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 5vh;
+font-size: 5px;
+}
+
+.h1-footer{
+font-family: 'montserrat';
+font-size: 20px;
+color: #fefbec;
+}
