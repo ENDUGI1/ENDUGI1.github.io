@@ -104,6 +104,10 @@ body {
   background-position: center;
   position: relative;
 }
+selector {
+  background-image: url('../img/header-bg.jpg');
+  background-size: cover; 
+}
 
 .hero::after {
   content: "";
